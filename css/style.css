@@ -26,3 +26,17 @@ body {
 #paragraph {
   font-size: 20px;
 }
+
+#image {
+  height: 15em;
+  width: 15em;
+  padding-bottom: 20px;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  border-bottom: 1px solid red;
+}
