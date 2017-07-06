@@ -23,6 +23,10 @@ body {
   font-weight: bold;
 }
 
+#mainParagraph {
+  font-size: 23px;
+}
+
 #paragraph {
   font-size: 20px;
 }
