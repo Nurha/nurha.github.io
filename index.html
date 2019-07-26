@@ -1,125 +1,1135 @@
 <!DOCTYPE html>
 <html>
-  <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="">
-    <meta name="author" content="nurha">
-    <title>NCode</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <script src="js/init.js"></script>
-  </head>
-  <body>
-    <div class='navbar-fixed'>
-      <nav class='white' role="navigation">
-        <a id="logo-container" href="#" class="brand-logo right"><img src="images/logo2.png" alt="Logo" id="logo" class="responsive-img"></a>
-      </nav>
-    </div>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		
+		
+		<title>Nurha Leite</title>
+		
+		
+		<!--=====================================================
+			CSS Stylesheets
+		=====================================================-->
+		<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/linea.css' >
+		<link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+		<link rel='stylesheet' type='text/css' href='css/owl.carousel.css' >
+		<link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
+		<link rel='stylesheet' type='text/css' href='css/style.css' >
+		
+	</head>
+	<body>
+		
+		
+		<!--=====================================================
+			Preloader
+		=====================================================-->
+		<div id='preloader' >
+			<div class='loader' ></div>
+			<div class='left' ></div>
+			<div class='right' ></div>
+		</div>
+		
+		
+		<div class='main-content' >
+			
+			<!--=====================================================
+				Page Borders
+			=====================================================-->
+			<div class='page-border border-left' ></div>
+			<div class='page-border border-right' ></div>
+			<div class='page-border border-top' ></div>
+			<div class='page-border border-bottom' ></div>
+			
+			
+			
+			<!--=====================================================
+				Menu Button
+			=====================================================-->
+			<a href='#' class='menu-btn' >
+				<span class='lines' >
+					<span class='l1' ></span>
+					<span class='l2' ></span>
+					<span class='l3' ></span>
+				</span>
+			</a>
+			
+			
+			<!--=====================================================
+				Menu
+			=====================================================-->
+			<div class='menu' >
+				<div class='inner' >
+					<ul class='menu-items' >
+						
+						<li>
+							<a href='#' class='section-toggle' data-section='intro' >
+								Home
+							</a>
+						</li>
+						
+						<li>
+							<a href='#about' class='section-toggle' data-section='about' >
+								About
+							</a>
+						</li>
+						
+						<li>
+							<a href='#resume' class='section-toggle' data-section='resume' >
+								Experience
+							</a>
+						</li>
+						
+						<!-- <li>
+							<a href='#portfolio' class='section-toggle' data-section='portfolio' >
+								Portfolio
+							</a>
+						</li> -->
+						
+						
+						<li>
+							<a href='#contact' class='section-toggle' data-section='contact' >
+								Contact
+							</a>
+						</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			
+			<div class='animation-block' ></div>
+			
+			
+			<!--=====================================================
+				Sections
+			=====================================================-->
+			<div class='sections' >
+				
+				<!--=====================================================
+					Main Section
+				=====================================================-->
+				<section id='intro' class='section section-main active' >
+					
+					<div class='container-fluid' >
+						
+						<div class='v-align' >
+							<div class='inner' >
+								<div class='intro-text' >
+									
+									<h1>I'm Nurha Leite</h1>
+									
+									<p>
+										A soul having a human experience
+									</p>
+									
+									<div class='intro-btns' >
+										
+										<a href='#about' class='btn-custom section-toggle' data-section='about' >
+											Discover More
+										</a>
+										
+										<!-- <a href='#contact' class='btn-custom section-toggle' data-section='contact' >
+											Hire Me
+										</a> -->
+										
+									</div>
+									
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				
+				</section>
+				
+				
+				<!--=====================================================
+					About Section
+				=====================================================-->
+				<section id='about' class='section about-section border-d' >
+					
+					<div class='section-block about-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>
+									About<strong class='color' > me</strong>
+								</h2>
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									
+									<img class="image" alt="myFace" src="img/portfolio/nurha.jpg"/>
 
-    <div id="about" class="row">
-      <div class="col s12 l6 center">
-        <br/>
-        <h2 id="bHeading" class='thin'>Hello World</h2>
-        <h5>My name is Nurha.</h5>
-          <p id="mainParagraph" class="flow-text"> 
-            <br />
-            A coder in Cape Town.
-            <br />
-            Building full stack apps.
-            <br>
-            Always learning and growing.
-         </p>
-      </div>
-      <div class="col s12 l6 center">
-        <img src="images/pic4.jpg" alt="" id="picFour" class="responsive-img">
-      </div>
-    </div>
+									<ul class='info-list' >
+										
+										<li>
+											<strong>Name:</strong>
+											<span>Nurha Leite</span>
+										</li>
+										
+										<li>
+											<strong>Job:</strong>
+											<span>Project manager</span>
+										</li>
+										
+										<li>
+											<strong>Age:</strong>
+											<span>29 Years</span>
+										</li>
+										
+										<li>
+											<strong>Operating in:</strong>
+											<span>Cape Town</span>
+										</li>
+										
+										
+									</ul>
+									
+								</div>
+								
+								<div class='col-md-8' >
+								
+									<div class='about-text' >
+										<p>
+											Hi there , I'm Nurha. I'm the project manager of Machinelf. 
+										</p>
 
-    <div class="container">
-      <div class="section">
+										<p>
+											With a few years of being a programmer under my belt, I believe I have a greater insight into the projects I deal with 
+											and understanding for the creative teams that bring the projects to life.
+										</p>
+										
+										<p>
+											I am really passionate about people and creating a space in which they can learn and thrive. As well as learning 
+											and growing as much as I can on personal and professional level. I have a special affinity for animals and keeping the environment clean.
+										</p>
 
-        <div id="work" class="row">
-          <h3 id="bHeading" class="thin center">Something I've built</h3>
-          <div class="col s12 l6 center">
-            <br/>
-            <img src="images/nelisa.png" alt="" class="responsive-img">
-            <a class="thin" target="_blank" href="http://nurha.projectcodex.co">Visit Nelisa's Spaza Shop</a>
-          </div>
-          <div class="col s12 l6 center">
-            <h4 class="thin">Nelisa's Spaza Shop</h4>
-            <p id="paragraph" class="flow-text">
-              An inventory system to keep track of records. 
-              As an admin user you are easily able add, edit and delete items, sales and purchases. 
-              As a customer you are able to view items that are in stock. Built with Node.js, Express, HandleBars, Bootstrap 
-              and deployed to DigitalOcean. 
-            </p>
-          </div>
-        </div>
+										<p>
+											I believe that awareness is the key to success - a tenet I live out through training, yoga and meditation. 
+											Feel free to use the contact me section if you would like to connect or use the link below to learn more about Machinelf.
+										</p>
+										
+									</div>
+									
+									<div class='about-btns' >
+										
+										<a target='_blank' href='https://machinelf.co.za' class='btn-custom btn-color' >
+											Learn more about Machinelf
+										</a>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+					</div>
+					
+					<div class='section-block services-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Activies</strong></h2>
+								
+							</div>
+							
+							
+							
+							<div class='row' >
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-photo' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Hiking</h4>
+											
+											<p>
+												When I'm not behind the computer I really enjoy being out in nature. 
+												Breathing in the fresh clean air and soaking up some energy from the sun.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='icon-basic-keyboard' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Being active</h4>
+											
+											<p>
+												Eating healthy, staying fit and flexible is a passion of mine. 
+												I believe taking care of your mind, body and sprit now will pay of later.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								<div class='col-md-4' >
+									<div class='service' >
+										
+										<div class='icon' >
+											<i class='ion-social-wordpress-outline' ></i>
+										</div>
+										
+										<div class='content' >
+											
+											<h4>Volenteering</h4>
+											
+											<p>
+												The most important thing you can give someone is your time. 
+												I like to give my time to those in need. Be it humans, animal or the environment.
+											</p>
+											
+										</div>
+										
+									</div>
+								</div>
+								
+								
+								
+							</div>
+							
+							
+						</div>
+						
+					</div>
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Resume Section
+				=====================================================-->
+				<section id='resume' class='section resume-section border-d' >
+					
+					<div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' > Experience</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Project CodeX</h4>
+										
+										<em>
+											<span>Full stack web developer apprentice</span>
+											<span>2015</span>
+										</em>
 
-         <div id="work" class="row">
-          <h3 id="bHeading" class="thin center">Direct Axis Project</h3>
-          <div class="col s12 l6 center">
-            <br/>
-            <img src="images/DA.png" alt="" id="image"class="responsive-img">
-          </div>
-          <div class="col s12 l6 center">
-            <h4 class="thin">Online Application Form</h4>
-            <p id="paragraph" class="flow-text">
-              An online loans application form allowing customer to complete the entire process online 
-              and diminish the need to call in to the call center.
-              Built with Angular2 CLI and typescript, bootstap and sass and is deployed with jenkins2.
-              View a short <a target="_blank" href="video/appVid.webm">video</a> play through.
-            </p>
-          </div>
-        </div>
+										<p>
+											At codeX I build a small inventory system for a spaza shop using Node, Express, MySQL and deployed to Digital Ocean.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Direct Axis</h4>
+										
+										<em>
+											<span>Junior developer</span>
+											<span>2016-2018</span>
+										</em>
 
-      </div>
-    </div>
+										<p>
+											I worked on the online loans applicaton form. 
+											Allowing customers to complete the entire process online and diminish the need to call in to the call center.
+											I worked with Angular2 CLI and typescript, bootstrap and deployed with Jenkins2.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Freelance</h4>
+										
+										<em>
+											<span>Freelance developer</span>
+											<span>2018</span>
+										</em>
 
-    <div class="parallax-container valign-wrapper">
-      <div class="parallax"><img src="images/pic1.jpg" alt="Unsplashed background img 3"></div>
-    </div>
+										<p>
+											I worked as a full stack developer using React, Express(Node.js), MongoDB and DigitalOcean. 
+										</p>
+										
+									</div>
+									
+								</li>
 
-    <footer id="contact" class="page-footer red">
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <!-- <a id="logo-container" href="#" class="brand-logo center"><img src="images/logo1.png" alt="Logo" id="logo2" class="responsive-img"></a> -->
-            <h5 class="white-text">
-                &lt;NCode/&gt;
-                <br />
-                <small class='thin white-text'>(Nurha Leite)</small>
-              </h5>
-          </div> 
-          <div class="col s12 m6 l6">
-            
-            <h5 class="white-text right">
-              +27 64 908 0540
-              <br />
-              nurhacode@gmail.com
-            </h5>
-          </div>
-          
-        </div>
-      </div>
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Machinelf</h4>
+										
+										<em>
+											<span>Project manager</span>
+											<span>2019</span>
+										</em>
 
-      <div class="footer-copyright">
-        <div class="container">
-         <span class="thin white-text text-lighten-3 right">Made by Nurha Leite</span>
-        </div>
-      </div>
-    </footer>
-  </body>
+										<p>
+											At Machinelf I handle verious business related tasks, as well as manage the software projects, which includes testing and quality assurance(QA).
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+					<!-- <div class='section-block timeline-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Experience</strong></h2>
+								
+							</div>
+							
+							<ul class='timeline' >
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Project codeX</h4>
+										
+										<em>
+											<span>Programming student</span>
+											<span>2015</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Direct Axis</h4>
+										
+										<em>
+											<span>Junior software developer</span>
+											<span>2016-2018</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								<li>
+									
+									<div class='timeline-content' >
+										
+										<h4>Freelance</h4>
+										
+										<em>
+											<span>Freelance developer</span>
+											<span>2018</span>
+										</em>
+										
+										<p>
+											Lorem ipsum dolor sit amet, id electram reprimique his, dicta saepe oporteat eos an, esse erat doming at lam. Nec quodsi suscipiantur an, ad graece nemore ocurreret lam, agam ipsum meliore quo ut.
+										</p>
+										
+									</div>
+									
+								</li>
+								
+								
+								
+							</ul>
+							
+						</div>
+						
+					</div> -->
+
+					<div class='section-block skills-block' >
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>
+									My <strong class='color' >Skills</strong>
+								</h2>
+								
+							</div>
+							
+							<div class='row' >
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>Business management</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:85%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>Project management</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:90%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>Quality Assurance and Testing</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:75%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+								<div class='col-md-6' >
+									
+									<div class='skill' >
+										
+										<h4>Book keeping</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:65%;' ></div>
+										</div>
+										
+									</div>
+									
+									
+									<div class='skill' >
+										
+										<h4>Finacial Administration</h4>
+										
+										<div class='bar' >
+											<div class='percent' style='width:40%;' ></div>
+										</div>
+										
+									</div>
+									
+								</div>
+								
+							</div>
+							
+							
+						</div>
+					</div>
+					
+					<!-- <div class='section-block testimonials-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								
+								<h2>My <strong class='color' >Clients</strong></h2>
+								
+							</div>
+							
+							
+							<div class='testimonials-slider' >
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								<div class='testimonial' >
+									
+									<div class='icon' >
+										<i class='ion-quote' ></i>
+									</div>
+									
+									<p>
+										Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum et. Has postulant vul putate eu. Pro justo aliquando prodesset at.
+									</p>
+									
+									<div class='author' >
+										<h4>Jake Doe</h4>
+										<span>CEO at Company</span>
+									</div>
+									
+								</div>
+								
+								
+							</div>
+							
+						</div>
+						
+					</div> -->
+					
+				</section>
+				
+				
+				<!--=====================================================
+					Portfolio Section
+				=====================================================-->
+				<!-- <section id='portfolio' class='section portfolio-section border-d' >
+					
+					<div class='section-block portfolio-block' >
+						
+						<div class='container-fluid' >
+							
+							
+							<div class='section-header' >
+								<h2>My <strong class='color' >Works</strong></h2>
+							</div>
+							
+							<ul class='portfolio-filters' >
+								<li>
+									<a href='#' class='active' data-group='all' >
+										All
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='web' >
+										Web
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='tech' >
+										Tech
+									</a>
+								</li>
+								<li>
+									<a href='#' data-group='photography' >
+										Photography
+									</a>
+								</li>
+							</ul>
+							
+							<ul class='portfolio-items' >
+								
+								<li data-groups='["web","tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/1.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-1' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-1' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/1.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/2.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-2' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-2' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/2.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["web","photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/3.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-3' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-3' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/3.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								
+								<li data-groups='["web"]' >
+									<div class='inner' >
+										<img src='img/portfolio/4.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-4' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-4' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/4.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["tech"]' >
+									<div class='inner' >
+										<img src='img/portfolio/5.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-5' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-5' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/5.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+								<li data-groups='["photography"]' >
+									<div class='inner' >
+										<img src='img/portfolio/6.jpg' alt>
+										
+										<div class='overlay' >
+											
+											<a href='#popup-6' class='view-project' >
+												View Project
+											</a>
+											
+											project popup
+											<div id='popup-6' class='popup-box zoom-anim-dialog mfp-hide' >
+												<figure>
+													
+													project popup image
+													<img src='img/portfolio/6.jpg' alt>
+												
+												</figure>
+												<div class='content' >
+													
+													project popup title
+													<h4>My Project Title</h4>
+													
+													project popup description
+													<p>
+														Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus. Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim quem quod cibo.
+													</p>
+													
+												</div>
+												
+											</div>
+											
+										</div>
+										
+									</div>
+								</li>
+								
+							</ul>
+							
+						</div>
+					
+					</div>
+					
+				</section> -->
+				
+				
+				<!--=====================================================
+					Contact Section
+				=====================================================-->
+				<section id='contact' class='section contact-section border-d' >
+					
+					<div class='section-block contact-block' >
+						
+						<div class='container-fluid' >
+							
+							<div class='section-header' >
+								<h2>Contact <strong class='color' >Me</strong></h2>
+							</div>
+							
+							
+							<div class='row' >
+							
+								<div class='col-md-8' >
+									
+									<div class='contact-form' >
+									
+										<form id='contact-form' data-toggle='validator' method='post' action='mail.php' >
+										
+											<div id='contact-form-result' ></div>
+										
+											<div class='row' >
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='text' class='form-control' placeholder='Name' name='name' required>
+														<div class='help-block with-errors' ></div>
+														
+													</div>												
+												</div>
+												
+												<div class='col-md-6' >
+													<div class='form-group' >
+														
+														<input type='email' class='form-control' placeholder='Email' name='email' required>
+														<div class='help-block with-errors' ></div>
+													
+													</div>
+												</div>
+												
+											</div>
+											
+											<div class='form-group' >
+												
+												<input type='text' class='form-control' placeholder='Subject' name='subject' required>
+												<div class='help-block with-errors' ></div>
+											
+											</div>
+											
+											<div class='form-group' >
+												
+												<textarea class='form-control' placeholder='Message' name='message' rows='5' required></textarea>
+												<div class='help-block with-errors' ></div>
+												
+											</div>
+											
+											<div class='form-group text-center' >
+												<button type='submit' class='btn-custom btn-color' >
+													Send Message
+												</button>
+											</div>
+											
+										</form>
+										
+									</div>
+									
+									
+								</div>
+								
+								<div class='col-md-4' >
+									
+									<div class='contact-info-icons' >
+										
+										<div class='contact-info' >
+											
+											<i class='ion-ios-location-outline' ></i>
+											
+											<p>
+												208 Albert Rd, <br>
+												Woodstock, <br>
+												Cape Town, <br>
+												7915
+											</p>
+											
+										</div>
+										
+										
+										<!-- <div class='contact-info' >
+											
+											<i class='ion-ios-telephone-outline' ></i>
+											
+											<p>
+												(+123) 713-295-4383<br>
+												(+123) 913-295-2583
+											</p>
+											
+										</div> -->
+										
+										
+										<div class='contact-info' >
+											
+											<i class='ion-android-globe' ></i>
+											
+											<p>
+												nurha@blocktame.io<br>
+												nurha@machinelf.co.za
+											</p>
+											
+										</div>
+										
+										
+										
+										
+									</div>
+									
+									
+									
+								</div>
+								
+								
+							</div>
+							
+							
+							
+						</div>
+					
+					</div>
+					
+				</section>
+				
+			</div>
+			
+		</div>
+		
+		
+		<!--=====================================================
+			JavaScript Files
+		=====================================================-->
+		<script src='js/jquery.min.js' ></script>
+		<script src='js/jquery.shuffle.min.js' ></script>
+		<script src='js/owl.carousel.min.js' ></script>
+		<script src='js/jquery.magnific-popup.min.js' ></script>
+		<script src='js/validator.min.js' ></script>
+		<script src='js/script.js' ></script>
+		
+	</body>
 </html>
-
-    <!-- <h5 class="white-text">Links</h5>
-    <ul>
-      <li><a class="white-text" target="_blank" href="https://github.com/Nurha">Github</a></li>
-      <li><a class="white-text" target="_blank" href="https://www.linkedin.com/in/nurha-leite-370905109/">LinkedIn</a></li>
-    </ul> -->
