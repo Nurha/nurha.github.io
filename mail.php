@@ -26,7 +26,7 @@
 		
 		
 		//Place your Email Here
-		$recipient = "nurha@blocktame.io";
+		$recipient = "nurha@machinelf.co.za";
 		
 		$mailheader = "From: $email \r\n";
 		
